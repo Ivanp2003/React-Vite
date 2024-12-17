@@ -1,0 +1,64 @@
+/* Contenedor principal de la sección */
+.section.gallery {
+  background-color: #f4f4f9; /* Fondo de la sección */
+  padding: 40px 20px; /* Espaciado interno */
+  text-align: center; /* Alineación de texto */
+  max-width: 1200px; /* Ancho máximo */
+  margin: 40px auto; /* Centrado en la página */
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo para el título */
+.section.gallery h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Contenedor de los elementos de la galería */
+.gallery-item {
+  display: inline-block; /* Alineación en fila */
+  width: 22%; /* Ancho de cada item */
+  margin: 10px; /* Espacio entre los elementos */
+  background-color: #fff; /* Fondo blanco */
+  border-radius: 12px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+}
+
+/* Imagen dentro de cada item */
+.gallery-item img {
+  width: 100%; /* Imagen ocupa todo el ancho del contenedor */
+  height: 200px; /* Altura fija */
+  object-fit: cover; /* Mantiene la proporción de la imagen */
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+/* Texto de cada item (debajo de la imagen) */
+.gallery-item p {
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Efecto al pasar el ratón (hover) */
+.gallery-item:hover {
+  transform: translateY(-10px); /* Eleva ligeramente el elemento */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+/* Hacer la galería responsive */
+@media (max-width: 768px) {
+  .gallery-item {
+    width: 45%; /* Ancho de los items en pantallas más pequeñas */
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-item {
+    width: 90%; /* Ancho de los items en dispositivos muy pequeños */
+  }
+}

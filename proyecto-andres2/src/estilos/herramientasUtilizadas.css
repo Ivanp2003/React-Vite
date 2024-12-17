@@ -1,0 +1,39 @@
+.herramientas-utilizadas-container {
+  background-color: #f4f4f9; /* Color de fondo uniforme */
+  padding: 30px; /* Espaciado interno */
+  text-align: center; /* Centrar el contenido */
+  max-width: 900px;
+  margin: 40px auto; /* Centrado con margen alrededor */
+  border-radius: 12px; /* Esquinas redondeadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333; /* Color principal del texto */
+}
+
+.herramientas-utilizadas-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #222; /* Título más oscuro */
+}
+
+.herramientas-utilizadas-container ul {
+  list-style-type: none; /* Elimina los puntos de la lista */
+  padding: 0;
+}
+
+.herramientas-utilizadas-container li {
+  background-color: #ffffff; /* Fondo blanco para cada elemento */
+  margin: 10px auto; /* Espacio entre elementos */
+  padding: 10px 15px; /* Espaciado interno */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  font-size: 1.2rem; /* Tamaño del texto */
+  color: #555; /* Color del texto */
+  max-width: 300px; /* Ancho máximo para cada ítem */
+}
+
+.herramientas-utilizadas-container li:hover {
+  background-color: #e3e3ff; /* Cambio de color al pasar el cursor */
+  color: #333; /* Texto más oscuro */
+  cursor: pointer; /* Cambia el cursor a "mano" */
+}

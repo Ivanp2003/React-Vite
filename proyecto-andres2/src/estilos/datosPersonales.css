@@ -1,0 +1,25 @@
+.datos-personales-container {
+  background-color: #f4f4f9; /* Mismo fondo */
+  padding: 30px; /* Espaciado uniforme */
+  text-align: center;
+  max-width: 900px;
+  margin: 40px auto; /* Espacio alrededor */
+  border-radius: 12px; /* Esquinas redondeadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Fuente moderna */
+  color: #333; /* Color del texto */
+}
+
+.datos-personales-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #222; /* Título más oscuro */
+}
+
+.datos-personales-img {
+  width: 200px; /* Ajuste del tamaño de la imagen */
+  height: auto;
+  border-radius: 50%; /* Hace la imagen circular */
+  margin-top: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra sutil para la imagen */
+}

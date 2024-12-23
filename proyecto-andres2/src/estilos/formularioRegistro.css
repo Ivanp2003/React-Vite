@@ -1,0 +1,96 @@
+/* Contenedor general del formulario */
+.formulario-container {
+    background-color: #f4f4f9;
+    /* Fondo */
+    padding: 30px;
+    /* Espaciado uniforme */
+    text-align: center;
+    /* Centrado */
+    max-width: 900px;
+    margin: 40px auto;
+    /* Espaciado alrededor */
+    border-radius: 12px;
+    /* Esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Sombra ligera */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    /* Fuente moderna */
+    color: #333;
+    /* Color del texto */
+}
+
+/* Título del formulario */
+.formulario-container h2 {
+    font-size: 2rem;
+    /* Tamaño de fuente ajustado */
+    margin-bottom: 20px;
+    color: #222;
+    /* Color más oscuro para el título */
+}
+
+/* Estilo para cada campo de entrada (input) */
+.formulario-container label {
+    font-weight: bold;
+    color: #555;
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulario-container input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    /* Más redondeado, similar al diseño */
+    margin-top: 5px;
+    outline: none;
+    width: 100%;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra interna ligera */
+}
+
+/* Estilo para el formulario */
+.formulario-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* Espaciado uniforme entre elementos */
+}
+
+/* Estilo del botón de envío */
+.formulario-container button {
+    padding: 12px 20px;
+    /* Tamaño ajustado */
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    /* Más redondeado */
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    /* Efecto suave */
+}
+
+.formulario-container button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+    /* Ligera ampliación al pasar el mouse */
+}
+
+/* Estilo del mensaje de confirmación */
+.mensaje-confirmacion {
+    margin-top: 20px;
+    color: green;
+    font-size: 16px;
+    white-space: pre-line;
+    padding: 15px;
+    background-color: #e7f7e7;
+    border-radius: 12px;
+    /* Más redondeado */
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra ligera */
+}
